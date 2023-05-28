@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wartaone</string>
+    <string name="label_very_long_subtitle">Example of very long of subtitle</string>
+    <string name="label_very_long_title">Very Long Title</string>
+    <string name="label_short_title">Short Title</string>
+    <string name="see_all">See All</string>
+    <string name="label_on_loading">On Loading. Please Wait</string>
+
+</resources>

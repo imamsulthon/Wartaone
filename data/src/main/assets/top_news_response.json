@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "found": 678926,
+    "returned": 10,
+    "limit": 10,
+    "page": 1
+  },
+  "data": [
+    {
+      "uuid": "25f495c8-6e7f-463d-8367-0f5fdb499db5",
+      "title": "FDA has okayed Elon Musk's Neuralink implants for human trials",
+      "description": "This could soon help doctors to treat paralysis and blindness",
+      "keywords": "Neuralink, Elon Musk, Neural engineering, Neuroprosthetics, Health, Medical, Pharma, Stent-electrode recording array, Prosthetics, Brain–computer interfacing, Medical technology, Implant, MoveAgain system, Businesspeople, Technology, Internet, Brain implant, MoveAgain, Biomedical engineering, Blackrock, Quartz",
+      "snippet": "The US Food and Drug Administration (FDA) has cleared the first clinical trials of devices made by Elon Musk’s brain-implant firm Neuralink.\n\nFounded in 2016,...",
+      "url": "https://qz.com/fda-okays-human-trial-of-elon-musks-neuralink-implants-1850478332",
+      "image_url": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/74d00863fe9890ee05063e11aac9a72c.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:35:00.000000Z",
+      "source": "qz.com",
+      "categories": [
+        "general",
+        "business",
+        "tech",
+        "entertainment"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "a62680e1-ae39-4d0a-a577-d1fc97c95ea1",
+      "title": "‘Different Standards’: The Struggle of Indigenous Journalists in Australia",
+      "description": "The departure of the TV host Stan Grant has set off a conversation about race and racism in the country’s media industry.",
+      "keywords": "",
+      "snippet": "The Australia Letter is a weekly newsletter from our Australia bureau. Sign up to get it by email.\n\nThis week, I wrote about the conversation about race and rac...",
+      "url": "https://www.nytimes.com/2023/05/26/world/australia/different-standards-the-struggle-of-indigenous-journalists-in-australia.html",
+      "image_url": "https://static01.nyt.com/images/2023/05/26/world/26ausletter308-NL/26ausletter308-NL-facebookJumbo.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:13:30.000000Z",
+      "source": "nytimes.com",
+      "categories": [
+        "general",
+        "politics"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "8f63273b-7d62-4c30-aa0d-29eee9c5e255",
+      "title": "Kiev deprives Ukrainian-born Soviet leader of honorary citizen’s title",
+      "description": "Kiev City Council has voted to deprive the late Soviet leader Leonid Brezhnev of honorary citizenship",
+      "keywords": "",
+      "snippet": "Leonid Brezhnev, who led the USSR for almost two decades, was born in what is now Ukraine’s Dnepropetrovsk Region\n\nKiev City Council has decided to deprive th...",
+      "url": "https://www.rt.com/russia/576936-brezhnev-honorary-citizen-kiev/",
+      "image_url": "https://mf.b37mrtl.ru/files/2023.05/article/6470670820302768d7373a7b.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:12:43.000000Z",
+      "source": "rt.com",
+      "categories": [
+        "general",
+        "politics"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "7d88563e-b472-4800-b88a-aa6c7571b69c",
+      "title": "20 of the world's richest economies, including the U.S., are fueling forced labor",
+      "description": "A report released by human rights organization Walk Free found that the number of people living in modern slavery, including forced marriage and human trafficki...",
+      "keywords": "",
+      "snippet": "20 of the world's richest economies, including the U.S., are fueling forced labor\n\nEnlarge this image toggle caption Manish Swarup/AP Manish Swarup/AP\n\nThe worl...",
+      "url": "https://www.npr.org/2023/05/26/1178331229/world-modern-slavery-report",
+      "image_url": "https://media.npr.org/assets/img/2023/05/26/ap23061150139130_wide-5f57ca0a2167b54635fbf824848cdc78d78eb8a4-s1400-c100.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:11:02.000000Z",
+      "source": "npr.org",
+      "categories": [
+        "general"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "b60d4be5-1cc8-4540-96a7-693e28243e6f",
+      "title": "Google News",
+      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "keywords": "",
+      "snippet": "",
+      "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vdGhlYXRobGV0aWMuY29tLzQ1NTQwMjkvMjAyMy8wNS8yNS9jZWx0aWNzLWhlYXQtZ2FtZS01LXNjb3JlLXJlc3VsdHMv0gEA?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+      "language": "en",
+      "published_at": "2023-05-26T08:10:24.000000Z",
+      "source": "news.google.com",
+      "categories": [
+        "general"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "6d513d99-8da6-49a9-8482-d4effb32178d",
+      "title": "OpenAI's ChatGPT app is now available for iOS users in India",
+      "description": "However, generative AI apps may find India's regulatory environment tough",
+      "keywords": "OpenAI, Artificial intelligence, Existential risk from artificial general intelligence, Rajiv Chandrasekhar, Sam Altman, Computational neuroscience, Elon Musk, Articles, Mobile app, Technology, Quartz",
+      "snippet": "ChatGPT is now available for Apple users in India and 32 other countries, a week after its launch in the US. A version for Android users is “coming soon,” i...",
+      "url": "https://qz.com/openai-chatgpt-app-now-available-for-indias-ios-users-1850478436",
+      "image_url": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/015073def6647633d64b69f40396a28f.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:05:00.000000Z",
+      "source": "qz.com",
+      "categories": [
+        "general",
+        "business",
+        "tech",
+        "entertainment"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "d0fecd1b-d343-4111-84ed-9beca5a41708",
+      "title": "Indian numerals: Pakistani jails, SoftBank flags, realty bites",
+      "description": "A weekly wrap of the Indian economy, by the numbers",
+      "keywords": "Softbank, macrotech developers, Vodafone, Goods and Services Tax, Countries, Embassy, EMBASSY OFFICE PARKS, World, Mangal Prabhat Lodha, Business, Finance, SoftBank Group, Jitendra Virwani, Raja Bagmane, HP, Rajiv Singh, Goods and services tax, International Data Corporation, India, International organizations, Basant Bansal, Quartz",
+      "snippet": "1 in 2 : Indian real-estate barons whose fortunes eroded in 2022-23\n\n\n\nFive out of India ’s top ten real-estate entrepreneurs saw their personal w ealth shrin...",
+      "url": "https://qz.com/indian-numerals-jailed-in-pakistan-softbank-softens-1850468452",
+      "image_url": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/e6cf31a8d9b233e003ede7e752a0e744.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:04:00.000000Z",
+      "source": "qz.com",
+      "categories": [
+        "general",
+        "business",
+        "tech",
+        "entertainment"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "bb4cf36c-924d-4d6b-b38e-6976904530b1",
+      "title": "Passenger plane flies with open door but lands safely in South Korea",
+      "description": "A passenger opened a door on an Asiana Airlines flight that later landed safely at a South Korean airport Friday, airline and government officials said.",
+      "keywords": "",
+      "snippet": "A passenger opened a door on an Asiana Airlines flight that later landed safely at a South Korean airport Friday, airline and government officials said.\n\nSome p...",
+      "url": "https://www.nbcnews.com/news/world/passenger-plane-flies-open-door-lands-safely-south-korea-rcna86373",
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-05/230526-asiana-airlines-mb-0857-22a156.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:00:59.000000Z",
+      "source": "nbcnews.com",
+      "categories": [
+        "general",
+        "politics"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "4fcf2b17-1986-449f-a35f-8b109be18c5c",
+      "title": "Raise MassHealth rates for substance use treatment",
+      "description": "Substance use should be treated like other mental health care.",
+      "keywords": "",
+      "snippet": "In a statement announcing the closure, the organization blamed “inadequate state reimbursement, which falls millions of dollars short of the costs required to...",
+      "url": "https://www.bostonglobe.com/2023/05/26/opinion/masshealth-substance-use-addiction-reimbursement-rates/?camp=bg:brief:rss:feedly&rss_id=feedly_rss_brief",
+      "image_url": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/DWaaS3YLD5L82BGpYHs7GwcECjM=/506x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/XF7LAEESEYLRC2GNOY2HU7KHVY.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T08:00:00.000000Z",
+      "source": "bostonglobe.com",
+      "categories": [
+        "general"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "c3f8bec8-6714-4a69-8a12-6baa7774fe22",
+      "title": "Suspect in killing of 4 people, including 2 police officers, in Japan captured after standoff",
+      "description": "Police said they arrested a man Friday who had holed up in his father’s house armed with a rifle and a knife after allegedly killing four people, including tw...",
+      "keywords": "",
+      "snippet": "Create your free profile or log in to save this article\n\nCreate your free profile or log in to save this article\n\nPolice said they arrested a man Friday who had...",
+      "url": "https://www.nbcnews.com/news/world/suspect-killing-4-people-2-police-officers-japan-captured-standoff-rcna86374",
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-05/230526-japan-shoting-mb-0851-b07658.jpg",
+      "language": "en",
+      "published_at": "2023-05-26T07:58:24.000000Z",
+      "source": "nbcnews.com",
+      "categories": [
+        "general",
+        "politics"
+      ],
+      "relevance_score": null,
+      "locale": "us"
+    }
+  ]
+}

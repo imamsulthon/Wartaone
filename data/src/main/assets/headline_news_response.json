@@ -1,0 +1,189 @@
+{
+  "data": {
+    "general": [
+      {
+        "uuid": "0765d3a5-8d9a-4b70-9dd6-f93087d37107",
+        "title": "Ron DeSantis Campaign Raised Record $8.2 Million on Launch Day",
+        "description": "Florida Gov. Ron DeSantis kicked off his campaign for the 2024 Republican presidential nomination on Wednesday.",
+        "keywords": "",
+        "snippet": "Florida Gov. Ron DeSantis kicked off his campaign for the 2024 Republican presidential nomination on Wednesday and reportedly pulled in a haul of $8.2 million i...",
+        "url": "https://www.breitbart.com/politics/2023/05/25/report-ron-desantis-campaign-raised-8-2-million-launch-day/",
+        "image_url": "https://media.breitbart.com/media/2022/11/ron-desantis-florida-gov-nov-8-2022-ap-photo-640x335.jpg",
+        "language": "en",
+        "published_at": "2023-05-26T02:53:39.000000Z",
+        "source": "breitbart.com",
+        "categories": [
+          "general",
+          "politics"
+        ],
+        "locale": "us",
+        "similar": [
+          {
+            "uuid": "bee51531-d2d6-4a2d-a1d0-5202093fa95e",
+            "title": "Ron DeSantis suggests he’d pardon Trump — if necessary — on first day if elected president",
+            "description": "Florida Gov. Ron DeSantis said Thursday he would consider pardoning former President Donald Trump, if necessary, along with Capitol riot defendants on his first day in office if he's elected president in 2024.",
+            "keywords": "News, 2024 presidential election, capitol riot, donald trump, Ron DeSantis, trump indictment",
+            "snippet": "Florida Gov. Ron DeSantis said Thursday he would consider pardoning former President Donald Trump, if necessary, along with Capitol riot defendants on his first...",
+            "url": "https://nypost.com/2023/05/25/ron-desantis-says-he-may-pardon-trump-if-elected-president/",
+            "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/05/desantis-trump-comp.jpg?quality=75&strip=all&w=1024",
+            "language": "en",
+            "published_at": "2023-05-25T22:22:33.000000Z",
+            "source": "nypost.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "a641d84e-bafb-4b6c-8813-10b7465de38a",
+            "title": "DeSantis Campaign Says It Raised $8.2 Million in First 24 Hours",
+            "description": "The cash haul points to the strengths Ron DeSantis will have in taking on Donald Trump.",
+            "keywords": "",
+            "snippet": "Gov. Ron DeSantis of Florida raised $8.2 million in his first 24 hours as a presidential candidate, his campaign said on Thursday, a huge sum that cements his s...",
+            "url": "https://www.nytimes.com/2023/05/25/us/desantis-fundraising-campaign.html",
+            "image_url": "https://static01.nyt.com/images/2023/05/25/multimedia/25pol-desantis-fundraising-mvfc/25pol-desantis-fundraising-mvfc-facebookJumbo.jpg",
+            "language": "en",
+            "published_at": "2023-05-25T23:29:53.000000Z",
+            "source": "nytimes.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "b315618d-8656-4e3c-b5a3-e81832bb32bb",
+            "title": "Ron DeSantis is going after Donald Trump like never before",
+            "description": "Florida Gov. Ron DeSantis, now officially a candidate for president, is no longer tiptoeing around former President Donald Trump – nor is he being shy about his plans to flex the powers of the presidency like never before if he wins the White House.",
+            "keywords": "2024 presidential election, amnesty and pardons, brand safety-nsf crime, brand safety-nsf other, brand safety-nsf sensitive, brand safety-nsf terrorism, brand safety-nsf violence, brand safety-nsf war and military, civil disobedience, coups and attempted coups, crime, law enforcement and corrections, criminal law, domestic alerts, domestic terrorism, domestic-us politics, donald trump, elections (by type), elections and campaigns, government and public administration, government bodies and offices, government organizations - us, governors, heads of government, iab-crime, iab-elections, iab-law, iab-politics, iab-war and conflicts, international alerts, international relations and national security, international-us politics, law and legal system, national security, political candidates, political figures - us, political organizations, politics, protests and demonstrations, riots, ron desantis, societal issues, society, terrorism, terrorism and counter-terrorism, unrest, conflicts and war, us capitol insurrection, us congress, us elections, us federal elections, us federal government, us political parties, us presidential elections, us republican party, violence in society, white house",
+            "snippet": "CNN —\n\nFlorida Gov. Ron DeSantis, now officially a candidate for president, is no longer tiptoeing around former President Donald Trump – nor is he being sh...",
+            "url": "https://www.cnn.com/2023/05/25/politics/desantis-trump-strategy/index.html",
+            "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/230525171936-ron-desantis-230519.jpg?c=16x9&q=w_800,c_fill",
+            "language": "en",
+            "published_at": "2023-05-25T23:26:45.000000Z",
+            "source": "cnn.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "94b11a9b-f6fb-4fc8-be2a-efba04a5a70f",
+            "title": "DeSantis raked in $8.2 million 24 hours after 2024 launch, campaign says",
+            "description": "Despite the technical difficulties on Twitter, Republican Florida Gov. Ron DeSantis was able to bring in $8.2 million in the first 24 hours since his 2024 presidential campaign launch.",
+            "keywords": "News, donald trump, elon musk, joe biden, Ron DeSantis, twitter",
+            "snippet": "Republican Florida Gov. Ron DeSantis hauled in $8.2 million in the first 24 hours of his 2024 presidential campaign.\n\nThe impressive sum dwarfs the $6.3 million...",
+            "url": "https://nypost.com/2023/05/25/desantis-raked-in-8-2-million-24-hours-after-2024-launch-campaign-says/",
+            "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/05/NYPICHPDPICT000011758440.jpg?quality=75&strip=all&w=1024",
+            "language": "en",
+            "published_at": "2023-05-26T01:34:04.000000Z",
+            "source": "nypost.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "70d83a50-ac5d-4efe-b448-d471d7af8140",
+            "title": "New Hampshire lawmaker flips endorsement to Trump after DeSantis’ ‘miserable launch’",
+            "description": "A New Hampshire state representative switched her allegiances to former President Donald Trump on Thursday after being “less than impressed” with Republican Florida Gov. Ron DeSantis’ glitch-filled campaign launch announcement.",
+            "keywords": "News, 2024 presidential election, donald trump, new hampshire, Ron DeSantis, twitter",
+            "snippet": "A New Hampshire state representative switched her allegiances to former President Trump on Thursday after being “less than impressed” with Republican Florid...",
+            "url": "https://nypost.com/2023/05/25/rep-sandra-panek-endorses-trump-after-miserable-desantis-launch/",
+            "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/05/NYPICHPDPICT000011761199.jpg?quality=75&strip=all&w=1024",
+            "language": "en",
+            "published_at": "2023-05-26T03:31:27.000000Z",
+            "source": "nypost.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          }
+        ]
+      },
+      {
+        "uuid": "c7c6b68a-9e06-43f2-848a-14661668d3b2",
+        "title": "Deadline looming, Biden and McCarthy narrow in on budget deal to lift debt ceiling",
+        "description": "Days from a deadline, President Joe Biden and House Speaker Kevin McCarthy are narrowing in on a two-year budget deal that could unlock a vote for lifting the nation’s debt ceiling",
+        "keywords": "Politics, National debt, Business, Politics, Washington news, General news",
+        "snippet": "Rep. Pete Aguilar, D-Calif., right, speaks as Rep. Katherine Clark, D-Mass., left, listens during a news conference Wednesday, May 24, 2023, on Capitol Hill in ...",
+        "url": "https://abcnews.go.com/US/wireStory/deadline-looming-biden-mccarthy-narrow-budget-deal-lift-99620004",
+        "image_url": "https://s.abcnews.com/images/US/wirestory_230fed0485cdee771b67a6331f172845_16x9_992.jpg",
+        "language": "en",
+        "published_at": "2023-05-26T04:14:31.000000Z",
+        "source": "abcnews.go.com",
+        "categories": [
+          "general",
+          "politics"
+        ],
+        "locale": "us",
+        "similar": [
+          {
+            "uuid": "6e505ec2-316b-49e3-ba8f-1a671ca11200",
+            "title": "Days before deadline, Congress leaves with no debt limit deal",
+            "description": "While a small team of Republican negotiators remained to try to hammer out a deal with President Biden, House GOP leaders sent lawmakers home until June 5.",
+            "keywords": "",
+            "snippet": "While a small team of Republican negotiators remained in the Capitol to try to hammer out a deal with President Biden, House GOP leaders sent lawmakers home unt...",
+            "url": "https://www.bostonglobe.com/2023/05/25/nation/just-days-before-possible-default-congress-heads-out-town-empty-handed/?camp=bg:brief:rss:feedly&rss_id=feedly_rss_brief",
+            "image_url": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/KCZb2AxTR1_XFjs55wVAAGepg8s=/506x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/NEW43MHH6IDXRDZT2L5QHHFGLQ.jpg",
+            "language": "en",
+            "published_at": "2023-05-25T22:34:10.000000Z",
+            "source": "bostonglobe.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "9e4fcf73-6fe2-446b-90a8-000a37f8652a",
+            "title": "Republican lawmakers, House Freedom Caucus demand Kevin McCarthy hold the line on debt ceiling negotiations",
+            "description": "Members of the right-wing House Freedom Caucus and other GOP lawmakers are pressuring Speaker Kevin McCarthy (R-Calif.) to stand firm in debt ceiling negotiations with President Biden.",
+            "keywords": "News, debt ceiling, freedom caucus, kevin mccarthy",
+            "snippet": "Members of the right-wing House Freedom Caucus and other GOP lawmakers are pressuring Speaker Kevin McCarthy (R-Calif.) to stand firm in debt ceiling negotiatio...",
+            "url": "https://nypost.com/2023/05/25/republicans-house-freedom-caucus-pressures-kevin-mccarthy-hold-the-line-on-debt-ceiling-negotiations/",
+            "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/05/newspress-collage-27211418-1685055931439.jpg?quality=75&strip=all&1685041645&w=1024",
+            "language": "en",
+            "published_at": "2023-05-25T23:38:12.000000Z",
+            "source": "nypost.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "8b0d2216-dc62-4059-a214-fcce0c1f9cf4",
+            "title": "Biden, McCarthy getting ‘closer’ to debt ceiling deal before clock runs out",
+            "description": "President Joe Biden and House Speaker Kevin McCarthy have made progress on finding an agreement on annual spending caps, according to a source.",
+            "keywords": "",
+            "snippet": "Biden, McCarthy getting ‘closer’ to debt ceiling deal before clock runs out\n\nShow Caption Hide Caption AP Top Stories May 25 P Here’s the latest for Thurs...",
+            "url": "https://www.usatoday.com/story/news/politics/2023/05/25/biden-mccarthy-debt-ceiling-memorial-day/70258044007/",
+            "image_url": "https://www.gannett-cdn.com/presto/2023/05/25/USAT/a2ae848c-641b-4047-abd8-e1e0c46da213-AP_Debt_Limit_4.jpg?auto=webp&crop=3389,1907,x0,y0&format=pjpg&width=1200",
+            "language": "en",
+            "published_at": "2023-05-26T01:00:53.000000Z",
+            "source": "usatoday.com",
+            "categories": [
+              "general"
+            ],
+            "locale": "us"
+          },
+          {
+            "uuid": "cdc6080f-dce5-4cf2-97d9-eebcd91a67ac",
+            "title": "McCarthy Holds Line for Deep Spending Cuts, Other Concessions from Democrats in Debt Deal",
+            "description": "House Speaker Kevin McCarthy is pushing for deep spending cuts and other concessions from the left in exchange for lifting the debt ceiling.",
+            "keywords": "",
+            "snippet": "House Speaker Kevin McCarthy (R-CA) is holding fast in negotiations with the White House and Senate Democrats, pushing for deep spending cuts and other key conc...",
+            "url": "https://www.breitbart.com/politics/2023/05/25/mccarthy-holds-line-deep-spending-cuts-concessions-democrats-debt-deal/",
+            "image_url": "https://media.breitbart.com/media/2023/05/GettyImages-1492943577-1-640x335.jpg",
+            "language": "en",
+            "published_at": "2023-05-26T00:32:53.000000Z",
+            "source": "breitbart.com",
+            "categories": [
+              "general",
+              "politics"
+            ],
+            "locale": "us"
+          }
+        ]
+      }
+    ]
+  }
+}
