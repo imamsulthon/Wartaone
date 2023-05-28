@@ -1,4 +1,4 @@
-# SimpleForm
+# Wartaone
 Simple News Headlines apps from The News API data source (https://www.thenewsapi.com/documentation)
 
 Developer: Imam Sulthon (imamsulthon@gmail.com)
