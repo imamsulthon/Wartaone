@@ -53,7 +53,7 @@
                         android:id="@+id/rv_headline_news"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:clipToPadding="true"
+                        android:clipToPadding="false"
                         android:orientation="horizontal"
                         android:padding="10dp"
                         android:visibility="gone"
@@ -62,8 +62,22 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/tv_group_headline_news"
                         tools:listitem="@layout/item_headline"
+                        tools:orientation="horizontal"
                         tools:scrollbars="horizontal"
-                        tools:visibility="gone" />
+                        tools:visibility="visible" />
+
+                    <me.relex.circleindicator.CircleIndicator2
+                        android:id="@+id/dot_indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:background="@color/transparent_teal"
+                        android:paddingHorizontal="10dp"
+                        app:ci_gravity="center_horizontal|center_vertical"
+                        app:ci_orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/rv_headline_news"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -106,6 +120,7 @@
                         android:id="@+id/rv_top_news"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:clipToPadding="false"
                         android:padding="10dp"
                         android:scrollbars="horizontal"
                         android:visibility="gone"

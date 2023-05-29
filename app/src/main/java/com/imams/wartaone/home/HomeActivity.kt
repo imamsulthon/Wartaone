@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.PagerSnapHelper
+import androidx.recyclerview.widget.RecyclerView
 import com.imams.core.base.TheResult
 import com.imams.core.util.gone
 import com.imams.core.util.visible
@@ -19,6 +21,7 @@ import com.imams.wartaone.home.adapter.PortraitNewsAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import me.relex.circleindicator.CircleIndicator2
 
 @AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
@@ -106,6 +109,7 @@ class HomeActivity : AppCompatActivity() {
                 LinearLayoutManager.HORIZONTAL, false
             )
             rvHeadlineNews.adapter = headlineAdapter
+            rvHeadlineNews.addIndicator(dotIndicator)
 
             tvGroupTopNewsSeeAll.setOnClickListener { seeAll("top") }
             tvGroupAllNewsSeeAll.setOnClickListener { seeAll("all") }
@@ -146,6 +150,13 @@ class HomeActivity : AppCompatActivity() {
         })
     }
 
+    private fun RecyclerView.addIndicator(indicator2: CircleIndicator2) {
+        val snapHelper = PagerSnapHelper()
+        snapHelper.attachToRecyclerView(this)
+        indicator2.attachToRecyclerView(this, snapHelper)
+        this.adapter?.registerAdapterDataObserver(indicator2.adapterDataObserver)
+    }
+
     private fun showError(msg: String, section: Int) {
         with(binding) {
             when (section) {
@@ -164,9 +175,11 @@ class HomeActivity : AppCompatActivity() {
                 1 -> {
                     if (show) {
                         rvHeadlineNews.gone()
+                        dotIndicator.gone()
                         loading1.root.visible()
                     } else {
                         rvHeadlineNews.visible()
+                        dotIndicator.visible()
                         loading1.root.gone()
                     }
                 }

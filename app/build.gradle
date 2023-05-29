@@ -66,6 +66,10 @@ dependencies {
     // Glide
     implementation 'com.github.bumptech.glide:glide:4.15.1'
 
+    //Dots Indicator
+    implementation 'me.relex:circleindicator:2.1.6'
+
+
     implementation project(":core")
     implementation project(":domain")
 

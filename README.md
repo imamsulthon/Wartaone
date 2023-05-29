@@ -20,6 +20,7 @@ Libraries:
 - [Paging3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview) The Paging library helps you load and display pages of data from a larger dataset from local storage or over network.
 - This approach allows your app to use both network bandwidth and system resources more efficiently
 - [Glide](https://github.com/bumptech/glide) is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
+- [CircleIndicator](https://github.com/ongakuer/CircleIndicator) A lightweight indicator like in nexus 5 launcher
 - [Mockk](https://mockk.io) Provides DSL to mock behavior. Built from zero to fit Kotlin language. Supports named parameters, object mocks, coroutines and extension function mocking.
 
 - This App contains various pages that follow the design requirement with one addition Main Page
