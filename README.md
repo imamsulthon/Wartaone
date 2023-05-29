@@ -5,7 +5,7 @@ Developer: Imam Sulthon (imamsulthon@gmail.com)
 
 This Android apps was developed in order for technical test submission for Android Developer job at PT Visi Prima Nusantara
 
-<img src="/screenshot_1.jpg" width="100"><img src="/screenshot_2.jpg" width="100"><img src="/screenshot_3.jpg" width="100"><img src="/screenshot_4.jpg" width="100">
+<img src="/screenshot_1.jpg" width="100"> <img src="/screenshot_2.jpg" width="100"> <img src="/screenshot_3.jpg" width="100"> <img src="/screenshot_4.jpg" width="100">
 
 Libraries:
 - [Hilt](https://dagger.dev/hilt/) - Hilt provides a standard way to incorporate Dagger dependency injection into an Android application.
