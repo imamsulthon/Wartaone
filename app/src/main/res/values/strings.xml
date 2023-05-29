@@ -5,5 +5,8 @@
     <string name="label_short_title">Short Title</string>
     <string name="see_all">See All</string>
     <string name="label_on_loading">On Loading. Please Wait</string>
+    <string name="top_news">Top News</string>
+    <string name="all_news">All News</string>
+    <string name="headline_news">Headline News</string>
 
 </resources>

@@ -7,14 +7,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.imams.core.base.TheResult
+import com.imams.core.util.gone
+import com.imams.core.util.visible
 import com.imams.domain.model.News
 import com.imams.wartaone.databinding.ActivityHomeBinding
 import com.imams.wartaone.detail.DetailActivity
 import com.imams.wartaone.home.adapter.HeadlineAdapter
 import com.imams.wartaone.home.adapter.PagingNewsAdapter
 import com.imams.wartaone.home.adapter.PortraitNewsAdapter
-import com.imams.core.util.gone
-import com.imams.core.util.visible
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -74,8 +75,11 @@ class HomeActivity : AppCompatActivity() {
             }
         }
         viewModel.topNews.observe(this) {
-            it?.let {
-                setTopNews(it)
+            when (it) {
+                is TheResult.Success -> { setTopNews(it.data) }
+                is TheResult.Error -> {
+                    showError(it.throwable.message ?: "error", 2)
+                }
             }
         }
 
@@ -140,6 +144,18 @@ class HomeActivity : AppCompatActivity() {
         startActivity(Intent(this, DetailActivity::class.java).apply {
             putExtra(DetailActivity.ID, item.uuid)
         })
+    }
+
+    private fun showError(msg: String, section: Int) {
+        with(binding) {
+            when (section) {
+                2 -> {
+                    rvTopNews.gone()
+                    loading2.root.visible()
+                    loading2.tvLoading.text = msg
+                }
+            }
+        }
     }
 
     private fun showLoading(show: Boolean, section: Int) {

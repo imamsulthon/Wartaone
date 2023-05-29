@@ -41,16 +41,16 @@ class HomeUseCaseImpl @Inject constructor(
     /**
      * This should return only 1 page for Home use case
      */
-    override suspend fun getTopNews(page: Int): Flow<List<News>> {
+    override suspend fun getTopNews(page: Int): Flow<TheResult<List<News>>> {
         return flow {
             val forceLocal = preference.isForceLocal().first()
             when (val result = repository.getTopNews(forceLocal,page)) {
                 is TheResult.Success -> {
-                    val data = result.data.data
-                    emit(data.map { it.toViewParam() })
+                    val data = result.data.data.map { it.toViewParam() }
+                    emit(TheResult.Success(data))
                 }
                 is TheResult.Error -> {
-                    emit(emptyList())
+                    emit(TheResult.Error(result.throwable))
                 }
             }
         }

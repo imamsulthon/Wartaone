@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:clipToPadding="true"
                     android:orientation="vertical"
-                    android:paddingHorizontal="10dp"
+                    android:padding="10dp"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                     tools:itemCount="10"
                     tools:listitem="@layout/item_news_landscape" />

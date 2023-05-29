@@ -91,7 +91,7 @@ class NewsListActivity: AppCompatActivity() {
     }
 
     private fun openDetail(item: News) {
-        startActivity(Intent(this, NewsListActivity::class.java).apply {
+        startActivity(Intent(this, DetailActivity::class.java).apply {
             putExtra(DetailActivity.ID, item.uuid)
         })
     }

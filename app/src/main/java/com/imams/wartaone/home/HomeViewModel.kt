@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
+import com.imams.core.base.TheResult
 import com.imams.domain.home.HomeUseCase
 import com.imams.domain.model.News
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -20,8 +21,8 @@ class HomeViewModel @Inject constructor(
     private val _headlineNews = MutableLiveData<List<News>>()
     var headlineNews: LiveData<List<News>> = _headlineNews
 
-    private val _topNews = MutableLiveData<List<News>>()
-    var topNews: LiveData<List<News>> = _topNews
+    private val _topNews = MutableLiveData<TheResult<List<News>>>()
+    var topNews: LiveData<TheResult<List<News>>> = _topNews
 
     private val _allNewsPaging = MutableLiveData<PagingData<News>>()
     val allNewsPaging: LiveData<PagingData<News>> = _allNewsPaging
