@@ -8,5 +8,7 @@
     <string name="top_news">Top News</string>
     <string name="all_news">All News</string>
     <string name="headline_news">Headline News</string>
+    <string name="title_mynews">My News</string>
+    <string name="title_activity_headline_news_screen">HeadlineNewsScreen</string>
 
 </resources>

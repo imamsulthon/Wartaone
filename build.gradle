@@ -12,6 +12,7 @@ buildscript {
         version_camera = "1.2.1"
         version_paging = "3.1.1"
         version_mockk = "1.12.4"
+        compose_version = '1.4.3'
     }
 
 }
@@ -20,6 +21,7 @@ plugins {
     id 'com.android.library' version '7.4.1' apply false
     id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
     id 'com.google.dagger.hilt.android' version "$version_hilt" apply false
+//    id 'com.android.dynamic-feature' version '7.4.1' apply false
 }
 
 task clean(type: Delete) {

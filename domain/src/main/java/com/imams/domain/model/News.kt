@@ -26,4 +26,7 @@ data class News(
 ) {
     constructor(uuid: String): this(uuid, "", "", "", "", "", "",
         "", "", "", listOf(),"","")
+    constructor(uuid: String, title: String, desc: String): this("", title, desc, "", "", "", "",
+        "", "", "", listOf(),"","")
+
 }

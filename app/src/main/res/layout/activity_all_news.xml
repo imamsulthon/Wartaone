@@ -40,6 +40,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clipToPadding="true"
+                    android:nestedScrollingEnabled="false"
                     android:orientation="vertical"
                     android:padding="10dp"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"

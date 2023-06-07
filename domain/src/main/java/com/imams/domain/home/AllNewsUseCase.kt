@@ -17,7 +17,7 @@ import javax.inject.Inject
 interface AllNewsUseCase {
 
     suspend fun getPaginationFlow(tag: String): Flow<PagingData<News>>
-
+    fun getPaginationFlow(tag: String, forceLocal: Boolean): Flow<PagingData<News>>
 }
 
 class AllNewsUseCaseImpl @Inject constructor(
@@ -27,6 +27,17 @@ class AllNewsUseCaseImpl @Inject constructor(
 
     override suspend fun getPaginationFlow(tag: String): Flow<PagingData<News>> {
         val forceLocal = preference.isForceLocal().first()
+        return Pager(
+            config = PagingConfig(pageSize = 3, enablePlaceholders = false),
+            pagingSourceFactory = {
+                if (tag.equals("top", true)) {
+                    TopNewsPagingSource(repository, forceLocal)
+                } else AllNewsPagingSource(repository, forceLocal)
+            }
+        ).flow
+    }
+
+    override fun getPaginationFlow(tag: String, forceLocal: Boolean): Flow<PagingData<News>> {
         return Pager(
             config = PagingConfig(pageSize = 3, enablePlaceholders = false),
             pagingSourceFactory = {
@@ -50,6 +61,7 @@ internal class TopNewsPagingSource(
             when (val response = repository.getTopNews(forceLocal, page)) {
                 is TheResult.Success -> {
                     val list = response.data.data.map { it.toViewParam() }
+                    log("load size: ${list.size} page: $page meta: ${response.data.meta}")
                     LoadResult.Page(
                         list,
                         prevKey = if (page == 1) null else page - 1,
@@ -70,7 +82,10 @@ internal class TopNewsPagingSource(
             state.closestPageToPosition(it)?.prevKey?.plus(1)
                 ?: state.closestPageToPosition(it)?.nextKey?.minus(1)
         }
+//        return null
     }
+
+    private fun log(msg: String) = println("SeeAllUseCase: Top $msg")
 
 }
 
@@ -86,6 +101,7 @@ internal class AllNewsPagingSource(
                 is TheResult.Success -> {
                     val meta = response.data.meta
                     val list = response.data.data.map { it.toViewParam() }
+                    log("load size: ${list.size} page $page meta: $meta")
                     LoadResult.Page(
                         list,
                         prevKey = if (page == 1) null else page - 1,
@@ -101,11 +117,14 @@ internal class AllNewsPagingSource(
         }
     }
 
+    private fun log(msg: String) = println("SeeAllUseCase: All $msg")
+
     override fun getRefreshKey(state: PagingState<Int, News>): Int? {
         return state.anchorPosition?.let {
             state.closestPageToPosition(it)?.prevKey?.plus(1)
                 ?: state.closestPageToPosition(it)?.nextKey?.minus(1)
         }
+//        return null
     }
 
 }

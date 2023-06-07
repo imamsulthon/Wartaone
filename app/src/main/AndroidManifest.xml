@@ -28,6 +28,7 @@
             android:name="com.imams.wartaone.home.HomeActivity"/>
         <activity android:name="com.imams.wartaone.detail.DetailActivity" />
         <activity android:name="com.imams.wartaone.home.NewsListActivity" />
+        <activity android:name="com.imams.mynews.HeadlineNewsScreen" />
     </application>
 
 </manifest>

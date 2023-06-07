@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.imams.mynews.HeadlineNewsScreen
+import com.imams.mynews.ui.screen.HomeNewsScreen
 import com.imams.wartaone.databinding.ActivityMainBinding
 import com.imams.wartaone.home.HomeActivity
 import dagger.hilt.android.AndroidEntryPoint
@@ -43,6 +45,10 @@ class MainActivity : AppCompatActivity() {
 
             btnGotoHome.setOnClickListener {
                 toHome()
+            }
+
+            btnGotoHomeCompose.setOnClickListener {
+                startActivity(Intent(this@MainActivity, HeadlineNewsScreen::class.java))
             }
         }
     }
